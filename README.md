@@ -4,3 +4,4 @@ user are encouraged to exchange a longterm credentials with short term (oauth to
 utiliser : DelegatingPasswordEncoder
 
 Method based authorization vs request based authorization
+CSRF protection can only work if safe HTTP methods are read only (doesnt change application state)
