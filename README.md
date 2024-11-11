@@ -12,3 +12,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 No cache to prevent user to press back button and see sensitive information.
+Set content type > otherwise content sniffing necessary, and XSS attack possible with polyglot code 
+
+### spring data extension
+SecurityEvaluationContextExtension can be used to have principal id in spring data to check user info ~?
