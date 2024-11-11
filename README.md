@@ -16,3 +16,8 @@ Set content type > otherwise content sniffing necessary, and XSS attack possible
 
 ### spring data extension
 SecurityEvaluationContextExtension can be used to have principal id in spring data to check user info ~?
+
+### Multithreading
+Security context (spring security) is managed on a thread level, so if you create a new thread its lost.
+To not loose it use DelegatingSecurityContextRunnable to create a new thread.
+
