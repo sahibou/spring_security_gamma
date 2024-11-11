@@ -21,3 +21,4 @@ SecurityEvaluationContextExtension can be used to have principal id in spring da
 Security context (spring security) is managed on a thread level, so if you create a new thread its lost.
 To not loose it use DelegatingSecurityContextRunnable to create a new thread.
 
+--> https://docs.spring.io/spring-security/reference/servlet/getting-started.html
